@@ -1,0 +1,31 @@
+.left-bar{
+    position: fixed;
+    width: 74px;
+    top:57px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white ;
+    z-index: 200;
+}
+
+.left-bar .side-buttons{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.side-buttons:hover{
+    background-color: rgb(235, 233, 233);
+}
+
+.side-buttons img{
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+ .side-buttons div{
+    font-family: Roboto , arial;
+    font-size: 10px;
+}
